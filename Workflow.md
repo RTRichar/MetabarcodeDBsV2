@@ -60,7 +60,7 @@ Lineages <- getTaxonomy(TaxIDs,'Path/To/accessionTaxa.sql')
 Final.df <- cbind(Accession, TaxIDs, Lineages)
 write.csv(Final.df, file = "trnL_Lineages.csv")
 ```
-##### After these steps you should have two important files, trnL_rmNL_AccH.fasta and trnL_Lineages.csv. The files should look like the examples below. No extra lines, no text after the accessions in the fasta header or the accessions text file
+##### After these steps you should have two important files, trnL_rmNL_AccH.fasta and trnL_Lineages.csv. The taxonomy file should look like the example below. 
 Contents of **trnL_Lineages.csv**  
 >"  49992","Z37472.1","49992","Eukaryota","Streptophyta",NA,"Lamiales","Lamiaceae","Thymus","Thymus vulgaris"  
 >"  49992","Z37471.1","49992","Eukaryota","Streptophyta",NA,"Lamiales","Lamiaceae","Thymus","Thymus vulgaris"  
