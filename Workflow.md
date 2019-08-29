@@ -11,9 +11,10 @@ HMMER v3.1 or compatible
 ### Download sequence data from NCBI Nucleotide 
 - rbcL, trnL, ITS2 and chloroplast genome sequences downloaded on 07/05/2018
 - trnH sequences downloaded on 01/23/2019
-- COI and mitochondrial genome sequences downloaded on 
+- Short COI downloaded on 04/19/2019
+- Arthropod whole mitochondrion genomes downloaded on 04/10/2019
 #### NCBI Nucleotide search terms used:
-*COI sequences:* '(cytochrome c oxidase subunit 1[All Fields] OR COI[All Fields]) AND (Arthropoda[All Fields] OR "Arthropoda"[Organism])'
+*COI sequences:* '(cytochrome c oxidase subunit 1[All Fields] OR COI[All Fields]) AND (Arthropoda[All Fields] OR "Arthropoda"[Organism]) AND ("200"[SLEN] : "3000"[SLEN])'
 
 *mitochondrial genome sequences:* '("Arthropoda"[Organism] OR Arthropoda[All Fields]) AND mitochondrion[All Fields] '
 
